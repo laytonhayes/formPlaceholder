@@ -1,0 +1,122 @@
+/* line 6, ../sass/style.scss */
+html {
+  font-size: 16px; }
+
+/* line 9, ../sass/style.scss */
+body {
+  background: #fff;
+  color: #666;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  background: #f9f9f9; }
+
+/* line 17, ../sass/style.scss */
+h2 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 0 0 1.5rem 0; }
+
+/* line 22, ../sass/style.scss */
+section {
+  width: 500px;
+  margin: 5rem auto; }
+
+/* line 26, ../sass/style.scss */
+form {
+  border: solid 1px #e5e5e5;
+  border-radius: 3px;
+  background: #fff; }
+
+/* line 31, ../sass/style.scss */
+button {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  padding: 0 1rem;
+  background: #278cbe;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+  margin: 1.5rem 0 0 0;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms; }
+  /* line 44, ../sass/style.scss */
+  button:disabled {
+    background: #e5e5e5;
+    text-shadow: none; }
+
+/* line 49, ../sass/style.scss */
+input, .holder {
+  line-height: 3.5rem;
+  height: 3.5rem;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+/* line 56, ../sass/style.scss */
+.holder input:focus + label {
+  color: #278cbe; }
+
+/* line 59, ../sass/style.scss */
+.holder {
+  position: relative; }
+
+/* line 63, ../sass/style.scss */
+.holder input {
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background: transparent;
+  z-index: 2;
+  border-bottom: 1px solid #ccc;
+  text-indent: 1rem;
+  color: #333; }
+
+/* line 78, ../sass/style.scss */
+.holder:last-child input {
+  border-bottom: none; }
+
+/* line 81, ../sass/style.scss */
+.holder label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  font-size: 1.2rem;
+  z-index: 1;
+  -webkit-transform-origin: 0 0rem;
+  -moz-transform-origin: 0 0rem;
+  -ms-transform-origin: 0 0rem;
+  -o-transform-origin: 0 0rem;
+  transform-origin: 0 0rem;
+  -webkit-transition: -webkit-transform 160ms, color 200ms;
+  -moz-transition: -moz-transform 160ms, color 200ms;
+  -o-transition: -o-transform 160ms, color 200ms;
+  transition: transform 160ms, color 200ms;
+  -webkit-transform: scale(1, 1) rotateY(0);
+  -moz-transform: scale(1, 1) rotateY(0);
+  -ms-transform: scale(1, 1) rotateY(0);
+  -o-transform: scale(1, 1) rotateY(0);
+  transform: scale(1, 1) rotateY(0);
+  color: #999; }
+
+/* line 93, ../sass/style.scss */
+.holder-float label {
+  -webkit-transform: scale(0.6, 0.6) rotateY(0);
+  -moz-transform: scale(0.6, 0.6) rotateY(0);
+  -ms-transform: scale(0.6, 0.6) rotateY(0);
+  -o-transform: scale(0.6, 0.6) rotateY(0);
+  transform: scale(0.6, 0.6) rotateY(0); }
+
+/* line 96, ../sass/style.scss */
+.holder-float input {
+  line-height: 4.5rem; }
